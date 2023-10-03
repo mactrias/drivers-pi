@@ -70,5 +70,21 @@
   flex-wrap: wrap;
   gap: 3em;
   justify-content: center;
-  margin-top: 20px; /* Agregado para separar los elementos */
+  margin-top: 20px;
+}
+
+.card {
+  flex-basis: calc(33.33% - 2em);
+  margin: 1em;
+  transition: transform 0.2s ease-in-out; /* Agregamos una transición suave para el zoom */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Escala la tarjeta en un 5% al hacer hover */
+}
+
+.select,
+.titulo,
+.boton {
+  margin-right: 20px; /* Espacio entre elementos */
 }

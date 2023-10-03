@@ -13,7 +13,12 @@
 .imge {
   height: 90%;
   width: 700px;
-  border-radius: 50%;
+  border-radius: 20%;
+  transition: transform 0.2s; /* Agregado para una transición suave en el hover */
+}
+
+.imge:hover {
+  transform: scale(1.05); /* Escala ligeramente mayor al hacer hover */
 }
 
 .description {

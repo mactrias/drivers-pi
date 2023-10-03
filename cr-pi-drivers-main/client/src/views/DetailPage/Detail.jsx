@@ -23,28 +23,19 @@ const Detail = () => {
       <div className={style.img}>
         <img
           className={style.imge}
-          src={driverDetails.image && driverDetails.image}
-          alt={driverDetails.firstName && driverDetails.firstName}
+          src={driverDetails.image}
+          alt={driverDetails.firstName}
         />
       </div>
       <div className={style.description}>
         <div className={style.description1}>
-          <h1>ID: {driverDetails.id && driverDetails.id}</h1>
-          <h1> Nombre: {driverDetails.firstName && driverDetails.firstName}</h1>
-          <h2>Apellido: {driverDetails.lastName && driverDetails.lastName}</h2>
-          <h3>
-            Nacionalidad:{" "}
-            {driverDetails.nationality && driverDetails.nationality}
-          </h3>
-          <h3>
-            Fecha De Nacimiento:{" "}
-            {driverDetails.birthDate && driverDetails.birthDate}
-          </h3>
+          <h1>ID: {driverDetails.id}</h1>
+          <h1> Nombre: {driverDetails.firstName}</h1>
+          <h2>Apellido: {driverDetails.lastName}</h2>
+          <h3>Nacionalidad: {driverDetails.nationality}</h3>
+          <h3>Fecha De Nacimiento: {driverDetails.birthDate}</h3>
           <h3>Equipo: {driverDetails.team && driverDetails.team}</h3>
-          <p>
-            Descripcion:{" "}
-            {driverDetails.description && driverDetails.description}
-          </p>
+          <p>Descripcion: {driverDetails.description}</p>
         </div>
       </div>
     </div>
