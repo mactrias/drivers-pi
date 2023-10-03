@@ -1,0 +1,51 @@
+.divSearvbar {
+  position: relative;
+  right: 40px;
+  top: 12px;
+}
+.input {
+  position: absolute;
+  right: 17em;
+  bottom: 26px;
+  border-radius: 12px;
+  border: none;
+}
+.buscar {
+  position: absolute;
+  background-color: rgb(112, 8, 8);
+  border-radius: 7px;
+  font-size: 1rem;
+  right: 9rem;
+  bottom: 26px;
+  border: none;
+  color: white;
+}
+.name {
+  position: absolute;
+  left: 73em;
+  bottom: 26px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(112, 8, 8);
+}
+.todo {
+  position: absolute;
+  background-color: rgb(112, 8, 8);
+  right: 0rem;
+  bottom: 26px;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  color: white;
+}
+.todo:hover,
+.buscar:hover {
+  font-size: 1.2rem;
+  border-radius: 14px; /* Un radio más grande para un efecto de iluminación más pronunciado */
+  transition: all 0.3s ease; /* Agregar una transición suave de 0.3 segundos */
+  box-shadow: 0 0 20px rgb(29, 29, 29); /* Agregar una sombra para enfatizar el efecto */
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.divDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  height: 765px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.imge {
+  height: 90%;
+  width: 700px;
+  border-radius: 50%;
+}
+
+.description {
+  text-align: center;
+  color: white;
+  max-width: 600px; /* Limita el ancho del contenedor de descripción */
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.description1 {
+  margin-bottom: 20px; /* Espaciado inferior entre elementos */
+}
+
+.description h1 {
+  font-size: 50px;
+}
+
+.description h2 {
+  font-size: 40px;
+}
+
+.description h3 {
+  font-size: 30px;
+}
+
+.description p {
+  font-size: 20px;
+}

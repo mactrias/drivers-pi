@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(167, 62, 62);
+}
+
+.button:disabled {
+  background-color: rgb(171, 74, 74);
+  cursor: not-allowed;
+}
+.input {
+  padding: 3px;
+  width: 50px;
+  text-align: center;
+  border: none;
+  background-color: rgb(224, 199, 199);
+  border-radius: 20px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: rgb(112, 8, 8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  outline: none;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: rgb(218, 11, 11);
+}
+.p {
+  color: rgb(112, 8, 8);
+  padding: 8px;
+  font-size: 20px;
+}

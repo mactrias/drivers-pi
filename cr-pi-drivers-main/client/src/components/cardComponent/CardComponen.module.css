@@ -1,0 +1,74 @@
+.CardComponent {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton,
+.select,
+.titulo {
+  margin: 10px;
+}
+
+.select {
+  height: 40px;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.select:hover {
+  background-color: rgba(231, 31, 31, 0.887);
+  color: white;
+}
+
+.titulo {
+  color: rgba(182, 50, 50, 0.855);
+  cursor: pointer;
+}
+
+.titulo:hover {
+  color: rgb(171, 36, 36);
+}
+
+.h5 {
+  color: antiquewhite;
+}
+
+.nameNoEnc {
+  color: beige;
+  height: 340px;
+  background-color: rgba(238, 23, 23, 0.855);
+  width: 340px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.boton {
+  background-color: rgba(182, 50, 50, 0.855);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: auto;
+}
+
+/* Estilos para los botones "Mostrar Equipos de la API" y "Mostrar Equipos de la Base de Datos" */
+.boton:first-child {
+  margin-left: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  justify-content: center;
+  margin-top: 20px; /* Agregado para separar los elementos */
+}
